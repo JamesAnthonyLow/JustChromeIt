@@ -27,9 +27,8 @@ if you used brew-cask to install google-chrome.
 If you haven't all you need to do is use homebrew to install brew
 
 <p>
-
 brew install brew-cask
-
+</p>
+<p>
 brew cask install google-chrome
-
 </p>
