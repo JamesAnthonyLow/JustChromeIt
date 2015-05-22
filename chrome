@@ -1,0 +1,29 @@
+#!/bin/bash
+#This script is intended to accept the name of a file as a 
+#parameter, and then open a window in google-chrome with that
+#file. 
+
+first=$1
+second=$2
+
+if [ "$first" == "-u" ]
+then
+
+
+open -a "Google Chrome" "http://$second"
+
+elif [ -z $second ]
+then
+
+open -a "Google Chrome" "file://localhost$(pwd)/$first"
+
+
+else
+
+echo "Invalid input, please use -u flag to enter URL"
+fi
+
+exit 0
+
+
+
