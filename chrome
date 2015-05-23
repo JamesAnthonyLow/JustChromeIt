@@ -5,17 +5,19 @@
 
 first=$1
 second=$2
+# Make sure BROWSER variable points to valid command to open browser
+BROWSER="Google Chrome"
 
 if [ "$first" == "-u" ]
 then
 
 
-open -a "Google Chrome" "http://$second"
+open -a "$BROWSER" "http://$second"
 
 elif [ -z $second ]
 then
 
-open -a "Google Chrome" "file://localhost$(pwd)/$first"
+open -a "$BROWSER" "file://localhost$(pwd)/$first"
 
 
 else
