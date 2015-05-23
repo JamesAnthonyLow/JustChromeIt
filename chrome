@@ -8,6 +8,12 @@ if [ ! -f "/usr/local/bin/chrome" ]
 then
 	chmod +x chrome
 	ln -s "$(pwd)/chrome" /usr/local/bin/chrome
+
+	if [ ! open -a "Google Chrome" ]
+	then 
+		echo "Warning, it seems that 'Open -a \"Google Chrome\"' is not a viable command on your system, please edit this script and provide a BROWSER variable that will work."
+		exit 0
+	fi
 fi
 
 
