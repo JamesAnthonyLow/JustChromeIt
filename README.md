@@ -20,4 +20,6 @@ That's it!
 
 **The script uses the command "Google Chrome" as the BROWSER variable.  This is the command that points to chrome in UNIX if you installed with brew.  If "open -a "Google Chrome"" doesn't work on your system all you need to do is find a working BROWSER that can open html from the command line and replace "Google Chrome" in the script.
 
+*** just added a self-install/chmod ability .  Now the script should chmod and symlink itself if you just run it inside the cloned directory "./chrome" 
+
 : )

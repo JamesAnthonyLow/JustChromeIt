@@ -3,6 +3,14 @@
 #parameter, and then open a window in google-chrome with that
 #file. 
 
+#check if previously installed, if not proceed with symlink
+if [ ! -f "/usr/local/bin/chrome" ]
+then
+	chmod +x chrome
+	ln -s "$(pwd)/chrome" /usr/local/bin/chrome
+fi
+
+
 first=$1
 second=$2
 # Make sure BROWSER variable points to valid command to open browser
