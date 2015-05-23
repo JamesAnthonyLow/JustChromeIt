@@ -18,17 +18,6 @@ chrome -u www.github.com
 
 That's it!
 
+**The script uses the command "Google Chrome" as the BROWSER variable.  This is the command that points to chrome in UNIX if you installed with brew.  If this doesn't work on your system all you need to do is find a working BROWSER that can open html from the command line and replace "Google Chrome" in the script.
 
-I'm also working on an install script so stay tuned!  : )
-
-**Warning this script needs a working "Google Chrome" path.  It should be configured properly
-if you used brew-cask to install google-chrome. 
-
-If you haven't all you need to do is use homebrew to install brew
-
-<p>
-brew install brew-cask
-</p>
-<p>
-brew cask install google-chrome
-</p>
+: )
