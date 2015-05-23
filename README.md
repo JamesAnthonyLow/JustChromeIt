@@ -18,6 +18,6 @@ chrome -u www.github.com
 
 That's it!
 
-**The script uses the command "Google Chrome" as the BROWSER variable.  This is the command that points to chrome in UNIX if you installed with brew.  If this doesn't work on your system all you need to do is find a working BROWSER that can open html from the command line and replace "Google Chrome" in the script.
+**The script uses the command "Google Chrome" as the BROWSER variable.  This is the command that points to chrome in UNIX if you installed with brew.  If "open -a "Google Chrome"" doesn't work on your system all you need to do is find a working BROWSER that can open html from the command line and replace "Google Chrome" in the script.
 
 : )
